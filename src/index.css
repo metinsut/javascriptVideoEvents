@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1, p {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: #4a4a4a;
+    font-size: 20px;
+}
+
+li {
+    padding: 30px;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+* {
+    box-sizing : border-box;
+}
+
+header {
+    background-color: navajowhite;
+}
+
+main {
+    background-color: antiquewhite;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+
+.button {
+    margin: 5px;
+    padding: 20px;
+    background-color: sienna;
+    cursor: pointer;
+}
+
+.videoContentBlock {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    -ms-grid-rows: 1fr;
+}
+
+
+.inputBlock {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.range {
+    width: 100%;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 16px;
+    color:#4a4a4a;
+    padding: 20px;
+}
+
+.settingsBlock {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: flex-start;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.buttonBlock {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,auto));
+    border-bottom: 2px solid #4a4a4a;
+}
+
+.volumeBLock {
+    border-bottom: 2px solid #4a4a4a;
+}
+
+.timeBLock {
+    border-bottom: 2px solid #4a4a4a;
+}
+
+.videoBlock {
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+
+
